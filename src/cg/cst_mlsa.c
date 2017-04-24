@@ -62,9 +62,10 @@
 #include "cst_wave.h"
 #include "cst_audio.h"
 
-#ifdef ANDROID
-#define SPEED_HACK
-#endif
+// Messes up 44.1kHz voices
+//#ifdef ANDROID
+//#define SPEED_HACK
+//#endif
 
 #include "cst_vc.h"
 #include "cst_cg.h"
